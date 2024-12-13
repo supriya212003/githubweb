@@ -1,57 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfume</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="header">
-        <nav>
-            <h1>Perfume</h1>
-            <ul>
-                <li>Home |</li>
-                <li>Products |</li>
-                <li>About Us |</li>
-                <li>Contact Us |</li>
-            </ul>
-        </nav>
-    </div>
+<style>
+    div{
+        background-color: black;
+        width: 100px;
+        height: 100px;
+        transition: 2s;
+    }
+    .widthmax{
+        width: 900px;
+    }
+</style>
+<div id="box"></div>
+<button onclick="change()">changecolor</button>
+<script>
+    var color=document.getElementById("box")
+    function change()
+    {
+        color.style.backgroundColor="purple"
+        color.setAttribute("class","widthmax")
 
-    <div class="searchbar">
-        <input placeholder="Search">
-
-    </div>
-
-    <div class="products">
-        <div class="box">
-            <img src="fernando-andrade-potCPE_Cw8A-unsplash.jpg" height="220px" width="220px">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim cupiditate tempora aliquid ipsum et. Consequuntur explicabo aliquam tempore neque nesciunt.</p>
-        </div>
-
-        <div class="box">
-            <img src="perfume2.img" height="220px" width="220px">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim cupiditate tempora aliquid ipsum et. Consequuntur explicabo aliquam tempore neque nesciunt.</p>
-        </div>
-
-        <div class="box">
-            <img src="lavender.img" height="220px" width="220px">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim cupiditate tempora aliquid ipsum et. Consequuntur explicabo aliquam tempore neque nesciunt.</p>
-        </div>
-    </div>
-
-    <div class="about">
-        <h1 style="text-align: center;">About Us</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sed perferendis maxime quos minima omnis nobis expedita, id placeat quae eos. Error fugiat eius voluptatum aliquid illum inventore reiciendis facilis sit veritatis reprehenderit facere eaque nemo, ex incidunt, accusantium natus odio repudiandae enim nam deserunt eveniet maiores. Ipsam dolore adipisci suscipit. Minima impedit itaque illum in, molestiae assumenda dignissimos. Nesciunt ex aperiam debitis facilis aliquid, alias ullam, assumenda, vitae quaerat praesentium ipsum fugiat labore quibusdam facere excepturi iusto. Ea dolorum quos culpa recusandae nulla quod quo rem, ullam atque minus perferendis in, sapiente voluptatum voluptas esse. Dignissimos similique necessitatibus blanditiis mollitia et, eius facere placeat facilis quas maxime. Laudantium, possimus commodi? Ipsam eveniet esse quaerat rerum repellat eligendi ad obcaecati nobis minus repudiandae. Id enim aperiam eum labore repudiandae debitis blanditiis sit eius, magnam consectetur voluptatem necessitatibus porro repellendus sint consequuntur fugiat animi quod at alias minus doloribus voluptates esse atque! Totam provident autem nisi atque aperiam libero, quas obcaecati voluptatem. Quos consectetur aperiam error magnam nihil odit omnis accusantium dicta enim, commodi assumenda magni obcaecati rerum et facilis? Velit inventore ad quaerat at nobis perspiciatis unde eveniet maiores, recusandae ullam asperiores ipsa totam iure dolores aliquam qui fugit id suscipit accusantium quam ratione omnis est. Nisi, ex placeat nesciunt!</p>
-    </div>
-
-    <div class="contact">
-        <h4>Contact</h4>
-        <p>+91 123456789</p>
-        <p>perfume@gmail.com</p>
-        <p style="margin-top: 30px;font-size: 13px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati rem magni suscipit, cum assumenda unde! Sunt, eligendi totam quod excepturi quis possimus porro iure aspernatur rerum, sint exercitationem dignissimos. Unde blanditiis iusto aut ipsam earum repellendus odio omnis, modi sunt magnam nesciunt ipsum autem aperiam placeat saepe quasi! Consectetur, nobis</p>
-    </div>
-    
-</body>
-</html>
+    }
+</script>
